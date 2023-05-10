@@ -1,0 +1,61 @@
+:root {
+  --color-brand-primary: #D87D4A;
+  --color-brand-secondary: #FBAF85;
+  --color-background: #101010;
+  --color-grey-primary: #F1F1F1;
+  --color-grey-secondary: #FAFAFA;
+  --color-white: #FFF;
+  --color-black: #000;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 5.6rem; 
+  line-height: 5.8rem;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+  letter-spacing: 0.15rem;
+}
+
+h3 {
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.115rem;
+}
+
+h4 {
+  font-size: 2.8rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.2rem;
+}
+
+h5 {
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.17rem;
+}
+
+h6 {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  letter-spacing: 0.13rem;
+}
