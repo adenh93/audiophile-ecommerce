@@ -1,0 +1,18 @@
+.text {
+  margin: 1.5rem 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  column-gap: 1.3rem;
+  color: var(--color-black-transparent);
+}
+
+.text:hover {
+  color: var(--color-brand-primary);
+}
+
+.icon {
+  color: var(--color-brand-primary);
+}
