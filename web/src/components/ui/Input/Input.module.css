@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.9rem;
+}
+
+.error {
+  color: var(--color-status-error);
+}
+
+.labelRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label, .errorLabel {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+
+.label {
+  font-weight: 700;    
+ }
+
+.input {
+  padding: 1.8rem 2.4rem;
+  border: 0.1rem solid;
+  border-radius: 0.8rem;
+  border-color: var(--color-border);
+  outline: none;
+  font-weight: 700;
+}
+
+.input:focus {
+  border-color: var(--color-brand-primary);
+  caret-color: var(--color-brand-primary);
+}
+
+.input::placeholder {
+  font-weight: 700;
+  color: var(--color-black-transparent);
+}
+
+.error > .input {
+  border: 0.2rem solid;
+  border-color: var(--color-status-error);
+  caret-color: var(--color-status-error);
+}
