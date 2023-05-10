@@ -1,5 +1,5 @@
 import { HTMLAttributes } from "react";
-import { IconCaretRight } from "@app/components/ui/Icon";
+import { IconCaretRight } from "@app/components/icons";
 import styles from "./TextButton.module.css";
 
 export default function TextButton({
