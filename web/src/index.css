@@ -4,9 +4,11 @@
   --color-background: #101010;
   --color-grey-primary: #F1F1F1;
   --color-grey-secondary: #FAFAFA;
+  --color-border: #CFCFCF;
   --color-white: #FFF;
   --color-black: #000;
   --color-black-transparent: rgba(0, 0, 0, 0.5);
+  --color-status-error: #CD2C2C;
 }
 
 html {
