@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  text-align: center;
+  padding: 1.5rem 0;
+  background-color: var(--color-grey-primary);
+  width: 12rem;
+  box-sizing: border-box;
+} 
+
+.button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-black-transparent);
+  border: none;
+}
+
+.button:hover {
+  color: var(--color-brand-primary);
+}
+
+.button:first-child {
+  left: 1.55rem;
+}
+
+.button:last-child {
+  right: 1.55rem;
+}
