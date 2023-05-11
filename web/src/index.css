@@ -59,6 +59,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-weight: 700;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {
@@ -103,4 +108,5 @@ button {
   font-size: var(--font-size-subtitle);
   letter-spacing: var(--letter-spacing-subtitle);
   font-weight: 700;
+  width: fit-content;
 }
