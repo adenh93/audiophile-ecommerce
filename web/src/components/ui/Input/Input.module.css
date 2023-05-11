@@ -14,8 +14,9 @@
 }
 
 .label, .errorLabel {
-  font-size: 1.2rem;
-  line-height: 1.2rem;
+  font-size: var(--font-size-label);
+  line-height: var(--line-height-label);
+  letter-spacing: var(--letter-spacing-label);
 }
 
 .label {

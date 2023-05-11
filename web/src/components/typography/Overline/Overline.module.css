@@ -1,7 +1,7 @@
 .overline {
   color: var(--color-brand-primary);
+  font-size: var(--font-size-overline);
+  line-height: var(--line-height-overline);
+  letter-spacing: var(--letter-spacing-overline);
   text-transform: uppercase;
-  font-size: 1.4rem;
-  line-height: 1.9rem;
-  letter-spacing: 1rem;
 }
