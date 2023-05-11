@@ -1,9 +1,9 @@
-import { HTMLAttributes } from "react";
+import { ButtonHTMLAttributes } from "react";
 import styles from "./Button.module.css";
 
 type ButtonVariant = "primary" | "secondary";
 
-export interface ButtonProps extends HTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
 }
 
