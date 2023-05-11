@@ -1,17 +1,21 @@
 import {defineField, defineType} from 'sanity'
 
 const sectionProductCallToAction = defineType({
-  title: 'Product Call To Action',
-  name: 'sectionProductCallToAction',
+  title: 'Call To Action',
+  name: 'sectionCallToAction',
   type: 'object',
   fields: [
     defineField({
-      title: 'Product',
-      name: 'product',
-      type: 'reference',
-      to: {type: 'product'},
-      weak: true,
+      title: 'Title',
+      name: 'title',
+      type: 'string',
       validation: (Rule) => Rule.required(),
+    }),
+    defineField({
+      title: 'Description',
+      name: 'description',
+      type: 'text',
+      hidden: ({parent}) => parent.size !== 'Large',
     }),
     defineField({
       title: 'Size',
@@ -24,10 +28,10 @@ const sectionProductCallToAction = defineType({
       initialValue: 'Large',
     }),
     defineField({
-      title: 'Description',
-      name: 'description',
-      type: 'text',
-      hidden: ({parent}) => parent.size !== 'Large',
+      title: 'Image',
+      name: 'image',
+      type: 'image',
+      validation: (Rule) => Rule.required(),
     }),
     defineField({
       title: 'Button Text',
@@ -39,13 +43,13 @@ const sectionProductCallToAction = defineType({
   ],
   preview: {
     select: {
-      productTitle: 'product.title',
+      subtitle: 'title',
       size: 'size',
-      media: 'product.image',
+      media: 'image',
     },
-    prepare: ({productTitle, size, media}) => ({
-      title: `Product Call To Action`,
-      subtitle: `${size} - ${productTitle}`,
+    prepare: ({subtitle, size, media}) => ({
+      title: `Call To Action`,
+      subtitle: `${size} - ${subtitle}`,
       media,
     }),
   },

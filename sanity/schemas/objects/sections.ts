@@ -9,11 +9,7 @@ const sections = defineType({
       title: 'Items',
       name: 'items',
       type: 'array',
-      of: [
-        {type: 'sectionProductHero'},
-        {type: 'sectionProductCallToAction'},
-        {type: 'sectionCategories'},
-      ],
+      of: [{type: 'sectionHero'}, {type: 'sectionCallToAction'}, {type: 'sectionCategories'}],
     }),
   ],
 })

@@ -13,9 +13,9 @@ import link from './objects/link'
 import sections from './objects/sections'
 
 // Sections
-import sectionProductHero from './sections/sectionProductHero'
+import sectionHero from './sections/sectionHero'
 import sectionCategories from './sections/sectionCategories'
-import sectionProductCallToAction from './sections/sectionProductCallToAction'
+import sectionCallToAction from './sections/sectionCallToAction'
 
 // Pages
 import homePage from './pages/homePage'
@@ -41,9 +41,9 @@ export const schemaTypes = [
   sections,
 
   // Sections
-  sectionProductHero,
+  sectionHero,
   sectionCategories,
-  sectionProductCallToAction,
+  sectionCallToAction,
 
   // Pages
   homePage,
